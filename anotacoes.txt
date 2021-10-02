@@ -1,0 +1,17 @@
+- O Helm é um gerenciador de aplicações igual ao apt-get, yum, apk, etc.
+
+- O chart é um template de manifestos yaml (ex: kubernetes) para fazer combinações de valores para criar os arquivos de deploy.
+
+
+helm create rotten-potatoes -> criar yaml (monta os templates)
+
+[IMPORTANTE]
+-values default tem menos peso.  O override fica em segundo lugar e o set no terminal tem o maior peso
+
+https://artifacthub.io/packages/helm/prometheus-community/prometheus
+
++-----------------------------+
+|  live de encerramento       |   
+|  03/10 20:00 (DOMINGO)      |      
+|  Boas práticas de deploy    |
++-----------------------------+    

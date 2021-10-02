@@ -1,0 +1,15 @@
+web:
+  imageName: leandroalves86/rotten-potatoes
+  imageTag: v1
+  replicas: 2
+  service:
+    type: LoadBalancer
+    nodePort: 40000    
+
+mongodb:
+  imageTag: 4.4.6
+  user: mongouser
+  password: mongopwd
+  replicas: 1
+  service:
+    type: ClusterIP
